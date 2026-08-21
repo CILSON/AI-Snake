@@ -32,11 +32,11 @@ menu_font = pygame.font.SysFont("bahnschrift", 30)
 
 # Load Sounds (use None if files don't exist to prevent errors)
 try:
-    eat_sound = pygame.mixer.Sound(r"eat.wav")
+    eat_sound = pygame.mixer.Sound(r"assests\eat.wav")
 except:
     eat_sound = None
 try:
-    game_over_sound = pygame.mixer.Sound(r"game_over.wav")
+    game_over_sound = pygame.mixer.Sound(r"assests\game_over.wav")
 except:
     game_over_sound = None
 
